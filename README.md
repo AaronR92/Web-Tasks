@@ -1,2 +1,2 @@
 # Web-Tasks
-#### All my college frontend projects are stored here
+#### My college frontend projects are stored here
