@@ -1,10 +1,6 @@
 .container {
     width: 30%;
     height: 400px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
     border: solid 1px #340777;
     border-radius: 6px;
     margin: 50px auto;
@@ -38,7 +34,6 @@ form {
     align-items: center;
     margin: 30px 50px;
     color: #cecece
-    /* border: solid 1px #340777; */
 }
 
 p {
