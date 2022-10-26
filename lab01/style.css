@@ -1,0 +1,54 @@
+.blue {
+    background-color:#FAEBD7;
+}
+
+.pink {
+    background-color:#FFE4E1;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+input {
+    margin: 3px;
+}
+
+textarea {
+    margin: 10px;
+}
+
+img {
+    height:250px;
+    width:300px;
+    object-fit : cover;
+}
+
+.yellow {
+    justify-content: space-between;
+    background-color: #AFEEEE;
+    padding:1px 0px;
+}
+
+.file_input {
+    padding-left: 77px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    margin: 20px;
+}
+
+form p {
+    margin: 10px;
+}
