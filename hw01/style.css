@@ -8,6 +8,7 @@
     background-size: 600px 550px;
     background-repeat: no-repeat;
     font-family: "Open Sans";
+    min-width: 300px;
 }
 
 h1 {
@@ -33,7 +34,7 @@ form {
     display: grid;
     align-items: center;
     margin: 30px 50px;
-    color: #cecece
+    color: #cecece;
 }
 
 p {
