@@ -43,10 +43,16 @@ p {
 }
 
 input.text {
+    font-size: 15px;
+    padding: 0px 10px;
     height: 30px;
     border-radius: 30px;
     background-color: rgba(170, 170, 170, 0.4);
     border-color: transparent;
+}
+
+input:focus {
+    outline: none;
 }
 
 button {
