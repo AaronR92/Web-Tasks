@@ -1,0 +1,39 @@
+h1 {
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #1A1A1A;
+    text-align: center;
+}
+
+nav {
+    background: #a2a2a2;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #343943;
+    font-size: 18px;
+    transition: all 400ms;
+}
+
+a:hover {
+    background-color: #4a4a4a;
+    color: #7e7e7e;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+p {
+    padding: 10px;
+    margin: 0px;
+}
