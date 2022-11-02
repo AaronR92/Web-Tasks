@@ -1,1 +1,64 @@
-ECHO is on.
+select {
+    border-radius: 10px;
+}
+
+option {
+    background-color: greenyellow;
+}
+
+h1 {
+    font-family: arial, sans-serif;
+    text-align: center;
+    color: #434343;
+}
+
+table {
+    font-family: arial, sans-serif;
+    width: 40%;
+    margin: 20px auto;
+    background-color: aqua;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px 16px;
+    text-align: center;
+}
+
+td {
+    background-color: white;
+}
+
+.rectangle {
+    margin: 20px auto;
+    background-color: darkolivegreen;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px
+}
+
+.circle {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+}
+
+.square {
+    margin: 20px auto;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #434343;
+    box-shadow: 20px 20px 7px rgb(33, 33, 33);
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+.square:hover {
+    background-color: #4f4f4f;
+    box-shadow: 20px 20px 7px rgb(47, 47, 47);
+}
