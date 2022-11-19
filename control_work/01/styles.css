@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    background-color: #8ee25c;
+}
+
+header {
+    display: flex;
+    content: "";
+    width: 100%;
+    height: 30vh;
+    background-color: #dbffcc;
+    color: #008000;
+}
+
+header img {
+    width: 15vw;
+    height: auto;
+}
+
+.form {
+    margin: auto;
+}
+
+form input {
+    border: 2px #008000 solid;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #8fe25b;
+    border: 5px #8fe25b solid;
+    border-radius: 5px;
+    color: #008000;
+    padding: 0 1.3vw;
+}
+
+header h1 {
+    color: #008000;
+    font-family: sans-serif;
+    font-style: italic;
+    margin: auto;
+    margin-bottom: 13vh;
+}
+
+.links {
+    margin: auto 5vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #008000;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-color: #8ee25c;
+}
+
+.nav nav {
+    padding: 0 300px;
+}
+
+nav {
+    margin: 10px auto;
+    height: 8vh;
+    display: flex;
+    padding: 0;
+}
+
+nav a {
+    font-size: large;
+    margin: auto;
+    padding: 1vw;
+    border: 1px #cb8a00 solid; 
+    border-top: none;
+    border-bottom: none;
+    transition: all .3s;
+}
+
+nav a:hover {
+    color: #dbffcc;
+    background-color: #87da58;
+}
+
+li {
+    list-style-type: "- ";
+    font-size: 1.3vw;
+    font-family: sans-serif;
+    margin: .3vw;
+}
+
+ul p {
+    font-style: italic;
+    font-size: 2vw;
+}
+
+ul {
+    margin: 2vh 3vw 2vh 1vw;
+    color: #008000
+}
+
+.products {
+    background-color: #ace893;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products .product {
+    background-color: #dbffcc;
+    padding: 20px;
+    margin: 0 1.2vw;
+}
+
+.product img {
+    width: 12vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product p {
+    color: #008000;
+    text-align: center;
+    max-width: 16vw;
+}
+
+.product button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .4vw;
+    width: 7vw;
+    height: 5vh;
+    color: white;
+    background-color: gray;
+    border-color: gray;
+}
+
+.title {
+    font-size: 2vw;
+}
+
+span.s-02 {
+    opacity: .2;
+}
+
+span.s-04 {
+    opacity: .4;
+}
+
+span.s-06 {
+    opacity: .6;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #008000;
+}
+
+footer p {
+    margin: 4vw;
+    color: #dbffcc;
+    font-size: 1.25vw;
+}
